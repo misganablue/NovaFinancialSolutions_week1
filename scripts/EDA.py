@@ -1,5 +1,9 @@
 #Exploratory Data Analysis (EDA)
+import pandas as pd
+
+
 # Basic statistics for headline lengths
+data = pd.read_csv('D:/AI_Matery_10Acadamy/week1 10acadamy/raw_analyst_ratings.csv')
 data['headline_length'] = data['headline'].apply(len)
 print(data['headline_length'].describe())
 

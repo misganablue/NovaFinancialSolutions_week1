@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
+file_path = 'D:/AI_Matery_10Acadamy/week1 10acadamy/Time series/temp_data.csv'  # Update with your file path
 # Group by date to count the number of articles published per day
 daily_articles = data.groupby('date').size()
 
