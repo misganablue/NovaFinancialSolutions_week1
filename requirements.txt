@@ -1,6 +1,6 @@
 streamlit==1.38.0
 pandas==2.2.2
-numpy==2.1.0
+numpy>=1.21,<2
 yfinance==0.2.30
 nltk==3.8.1
 statsmodels==0.13.5
